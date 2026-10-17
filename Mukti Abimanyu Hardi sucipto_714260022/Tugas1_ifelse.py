@@ -15,9 +15,9 @@ elif nilai >= 80:
     print("lulus")
 elif nilai >= 70:
     huruf = "c"
-    print(lulus)
+    print("lulus")
 elif nilai >= 60:
-    huruf = "D"
+    huruf = "D"`
 elif nilai >= 0:
     huruf = "E"
-else  
+else  wdkaodksodkasdadsad
