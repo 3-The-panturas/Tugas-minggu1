@@ -3,16 +3,21 @@
 
 nilai = float(input("Masukkan nilai akhir (0-100): "))
 
-if nilai >= 80 and nilai <= 100:
+if nilai >= 80:
     huruf =("A")
-elif nilai >= 70 and nilai < 80:
+    print("lulus")
+elif nilai >= 70:
     huruf=("B")
-elif nilai >= 60 and nilai < 70:
+    print("lulus")
+elif nilai >= 60:
     huruf=("C")
-elif nilai >= 50 and nilai < 60:
+    print("lulus")
+elif nilai >= 50:
     huruf=("D")
+    print("tidak lulus")
 else:
     huruf=("E")
+    print("tidak lulus")
 
 print(f"Nilai {nilai} setara dengan huruf mutu {huruf}")
 
